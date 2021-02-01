@@ -122,3 +122,19 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#confirmation-area{
+    display: none;
+}
+.confirmation{
+    text-align: center;
+    align-items: right;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 6px;
+    color: black;
+    float: right;
+    width: 80%;
+    height: 70%;
+    margin-left: 180px;
+    padding: 15px;
+}

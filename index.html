@@ -117,8 +117,7 @@
         </div>
         <div id="confirmation-area" class="confirmation">
             <h2>Congratulation!</h2>
-            <p>You've booked <span id="total-ticket">0</span> Tickets</p>
-            <p>You'r total Bill is <span>$00</span></p>
+            <p>You've successfully booked your ticket(s)!!</p>
         </div>
     </main>
     <script>
@@ -165,15 +164,13 @@
             document.getElementById('total').innerText = '$' + total;
         }
 
+        // booking confirmation.
         const bookingBtn = document.getElementById('booking-button').addEventListener('click', function () {
             const bookingArea = document.getElementById('reservation');
             bookingArea.style.display = 'none';
             const confirmationArea = document.getElementById('confirmation-area')
             confirmationArea.style.display = 'block';
         });
-
-        
-
     </script>
 
     <!--Thank You-->
